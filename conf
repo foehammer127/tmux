@@ -41,6 +41,7 @@ set-window-option -g pane-base-index 1
 
 
 # Alt +o and p is move between windows
-
 bind -n M-o previous-window
 bind -n M-p next-window
+
+set -g default-terminal "xterm-256color"
